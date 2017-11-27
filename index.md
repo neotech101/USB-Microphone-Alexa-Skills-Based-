@@ -13,7 +13,8 @@ By this week we needed to hand in our Budget Report and get back our evaluated G
 By this week we needed to hand in our GANTT chart, and get back our evaluated proposal
 
 ## Week 2
-We hand in a proposal <https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx>
+We hand in a proposal <br>
+[Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx)
 
 ## Week 1
 In week one we did a tech quiz and decided on a project.
