@@ -12,4 +12,4 @@ By this week we needed to hand in our Budget Report and get back our evaluated G
 By this week we needed to hand in our GANTT chart, and get back our evaluated proposal
 # Week 1
 In week one we did a tech quiz and decided on a project.
-Then we made a proposal <https://github.com/N01150244/pulsesensor/blob/master/ProposalContentKarandeepSinghRev02.docx>
+Then we made a proposal <https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx>
