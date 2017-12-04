@@ -29,7 +29,7 @@
 
 ## Week 2  -  September 18 2017
 * I handed in a [Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx).
-* I watched some soldering videos.
+* I watched some [soldering videos] (https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz).
 
 ## Week 1  -  September 11 2017
 * We were given the list of choices among sensors.
