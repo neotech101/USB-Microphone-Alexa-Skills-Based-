@@ -1,4 +1,4 @@
-######Piyush Rana CENG 317 Sunlight Sensor Blog.
+##### Piyush Rana CENG 317 Sunlight Sensor Blog.
 
 ## Week 5  -  December 04 2017
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCb board.
