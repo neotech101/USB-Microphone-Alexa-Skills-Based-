@@ -1,15 +1,25 @@
 Piyush Rana CENG 317 Sunlight Sensor Blog.
 
+## Week 5  -  December 04 2017
+* I showed all the sensors(Humidity,Temperature and Light) working with LED blinking.
+* I showed my sensor(USB Microphone) connected to the Raspberry Pi.
+* Created blog link from the Repository that includes all the progress throughtout with some images.
+
+## Week 5  -  November 27 2017 (Post Strike)
+* I showed acquisition of my parts and Raspberry Pi working successfully.
+* Due to strike, we didnt have much to submit in the first week.
 
 ## Strike Days (During college's strike)
 * During strike, I watched few videos of [ Setting-Up Raspberry Pi ](https://www.lynda.com/Raspberry-Pi-tutorials/Up-Running-Raspberry-Pi/191267-2.html) and softwares that were needed to be installed on it.
-* I got my parts within 2 weeks and I started working on setting up the Raspberry Pi and installing softwares on it.
-
+* I got my parts within 2 weeks and I started working on setting up the Raspberry Pi and installing [raspbian](https://www.raspberrypi.org/downloads/raspbian/) on it.
+* I sent gerber files to our Technical Department to print the PCB board.
+* Once PCB board arrived, I soldered it with the help of a technician and got the LED blinked.
+* In addidtion to blinked LED, I also attached Humidity,Temperature and Light sensors which we got with our PCB board.
 
 ## Week 4  -  October 02 2017
 * By this week I needed to hand in my [Budget](https://github.com/PRana02/Wireless-Microphone/blob/master/FINAL%20bUDGET.xlsx) Report.
 * I got back my evaluated GANTT chart back.
-* I already ordered some of my parts.
+* I already ordered some of my parts and need approval of some other parts.
 
 ## Week 3  -  September 25 2017
 * I handed in my [GANTT](https://github.com/PRana02/Wireless-Microphone/blob/master/PiyushRana.mpp) chart
