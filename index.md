@@ -2,7 +2,8 @@
 
 ## Week 5  -  December 04 2017
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
-![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png)
+![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
+
 * I showed my sensor(USB Microphone) connected to the Raspberry Pi.
 * Created blog link from the [Repository](https://prana02.github.io/Wireless-Microphone/) that includes all the progress throughtout with some images.
 
