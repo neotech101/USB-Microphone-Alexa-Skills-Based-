@@ -1,9 +1,8 @@
 #### Wireless-Microphone
-
-title: Raphael Carlo Najera CENG 317 Blog
+---
+title: Piyush Rana CENG 317 USB Wireless Microphone Blog.
 ---
 
-Piyush Rana CENG 317 USB Wireless Microphone Blog.
 
 ## Week 5
 * By this week we had to have ordered our parts needed for this project. 
