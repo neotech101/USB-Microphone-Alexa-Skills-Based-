@@ -1,6 +1,8 @@
-#### Wireless-Microphone
 ---
-title: Piyush Rana CENG 317 USB Wireless Microphone Blog.
+tagline: Website with GitHub Pages
+description: Simple website with GitHub Pages
+layout: page
+title: Piyush Rana Najera CENG 317 Blog
 ---
 
 
