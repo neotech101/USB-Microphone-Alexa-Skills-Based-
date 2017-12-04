@@ -1,4 +1,9 @@
-# Wireless-Microphone
+#### Wireless-Microphone
+
+title: Raphael Carlo Najera CENG 317 Blog
+---
+
+Piyush Rana CENG 317 USB Wireless Microphone Blog.
 
 ## Week 5
 * By this week we had to have ordered our parts needed for this project. 
@@ -17,5 +22,6 @@
 [Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx)
 
 ## Week 1
+* Hola - welcome to My Repository()
 * In week one we did a tech quiz and decided on a project.
 
