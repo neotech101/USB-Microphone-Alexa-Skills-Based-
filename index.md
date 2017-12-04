@@ -8,7 +8,7 @@ Piyush Rana CENG 317 Sunlight Sensor Blog.
 * By this week we needed to hand in our Budget Report and get back our evaluated GANTT chart back
 
 ## Week 3  -  September 18 2017
-* Today We needed to hand in our [GANTT] (https://github.com/PRana02/Wireless-Microphone/blob/master/PiyushRana.mpp)chart, and get back our evaluated proposal.
+* Today We needed to hand in our [GANTT] (https://github.com/PRana02/Wireless-Microphone/blob/master/PiyushRana.mpp) chart, and get back our evaluated proposal.
 * I watched some soldering videos
 
 ## Week 2  -  September 18 2017
