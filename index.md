@@ -1,4 +1,9 @@
-
+---
+tagline: Website with GitHub Pages
+description: Simple website with GitHub Pages
+layout: page
+title: Raphael Carlo Najera CENG 317 Blog
+---
 
 ## Week 5
 * By this week we had to have ordered our parts needed for this project. 
