@@ -1,15 +1,18 @@
 Piyush Rana CENG 317 Sunlight Sensor Blog.
-
-## Week 5
+## Week 3  -  September 25 2017
 * By this week we had to have ordered our parts needed for this project. 
 * All the parts that are still on their way need to at least have their proof of purchase.
 
-## Week 4
-* By this week we needed to hand in our Budget Report and get back our evaluated GANTT chart back
+## Week 3  -  October 02 2017
+
+* By this week I needed to hand in my [Budget](https://github.com/PRana02/Wireless-Microphone/blob/master/FINAL%20bUDGET.xlsx) Report.
+* I got back my evaluated GANTT chart back.
+* I already ordered some of my parts.
 
 ## Week 3  -  September 25 2017
-* I handed in my[GANTT](https://github.com/PRana02/Wireless-Microphone/blob/master/PiyushRana.mpp)chart, and got back our evaluated proposal.
-
+* I handed in my [GANTT](https://github.com/PRana02/Wireless-Microphone/blob/master/PiyushRana.mpp) chart
+* I got back my evaluated proposal.
+* I reviewed [Learning Markdown on Lynda.com] (https://www.lynda.com/Web-Development-tutorials/Up-Running-Markdown/438888-2.html)
 
 ## Week 2  -  September 18 2017
 * We handed in a [Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx).
