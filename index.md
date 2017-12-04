@@ -1,10 +1,12 @@
 Piyush Rana CENG 317 Sunlight Sensor Blog.
-## Week 3  -  September 25 2017
-* By this week we had to have ordered our parts needed for this project. 
-* All the parts that are still on their way need to at least have their proof of purchase.
 
-## Week 3  -  October 02 2017
 
+## Strike Days (During college's strike)
+* During strike, I watched few videos of [ Setting-Up Raspberry Pi ](https://www.lynda.com/Raspberry-Pi-tutorials/Up-Running-Raspberry-Pi/191267-2.html) and softwares that were needed to be installed on it.
+* I got my parts within 2 weeks and I started working on setting up the Raspberry Pi and installing softwares on it.
+
+
+## Week 4  -  October 02 2017
 * By this week I needed to hand in my [Budget](https://github.com/PRana02/Wireless-Microphone/blob/master/FINAL%20bUDGET.xlsx) Report.
 * I got back my evaluated GANTT chart back.
 * I already ordered some of my parts.
@@ -15,7 +17,7 @@ Piyush Rana CENG 317 Sunlight Sensor Blog.
 * I reviewed [Learning Markdown on Lynda.com] (https://www.lynda.com/Web-Development-tutorials/Up-Running-Markdown/438888-2.html)
 
 ## Week 2  -  September 18 2017
-* We handed in a [Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx).
+* I handed in a [Proposal](https://github.com/PRana02/Wireless-Microphone/blob/master/ProposalContent.xlsx).
 * I watched some soldering videos.
 
 ## Week 1  -  September 11 2017
