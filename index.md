@@ -1,6 +1,8 @@
 ## Piyush Rana CENG 317 USB Microphone (Wireless Microphone) Blog.
 
 ## Week 5  -  December 04 2017
+* Due to some circuit problem in my PCB board, I had to change some connections.
+* 
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
 
