@@ -1,9 +1,10 @@
 Piyush Rana CENG 317 Sunlight Sensor Blog.
 
 ## Week 5  -  December 04 2017
-* I showed all the sensors(Humidity,Temperature and Light) working with LED blinking.
+* I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCb board.
+![alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png)
 * I showed my sensor(USB Microphone) connected to the Raspberry Pi.
-* Created blog link from the Repository that includes all the progress throughtout with some images.
+* Created blog link from the [Repository](https://prana02.github.io/Wireless-Microphone/) that includes all the progress throughtout with some images.
 
 ## Week 5  -  November 27 2017 (Post Strike)
 * I showed acquisition of my parts and Raspberry Pi working successfully.
