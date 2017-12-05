@@ -1,8 +1,10 @@
 ## Piyush Rana CENG 317 USB Microphone (Wireless Microphone) Blog.
 
 ## Week 5  -  December 04 2017
-* Due to some circuit problem in my PCB board, I had to change some connections.
+* Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
 * I added python script to detect humidity sensor ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity%20sensor%20detection.jpg?raw=true "Green Light")<br>
+* I am still left to run hardware clock.
+* I researched about it on internet and solutions were like to make some changes in /etc/boot and etc/services files. But it wasn't effective.
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
 
@@ -10,7 +12,7 @@
 
 ## Week 5  -  November 27 2017 (Post Strike)
 * I showed acquisition of my parts and Raspberry Pi working successfully.
-* Due to strike, we didnt have much to submit in the first week.
+* Due to strike, we didnt have much to submit in the first week. 
 
 ## Strike Days (During college's strike)
 * During strike, I watched few videos of [ Setting-Up Raspberry Pi ](https://www.lynda.com/Raspberry-Pi-tutorials/Up-Running-Raspberry-Pi/191267-2.html) and softwares that were needed to be installed on it.
