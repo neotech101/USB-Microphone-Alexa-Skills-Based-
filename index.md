@@ -2,12 +2,10 @@
 
 ## Week 5  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections.
-* I added python script to detect humidity sensor 
-![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity%20sensor%20detection.jpg?raw=true "Green Light")<br>
+* I added python script to detect humidity sensor ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity%20sensor%20detection.jpg?raw=true "Green Light")<br>
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
 
-* I showed my sensor(USB Microphone) connected to the Raspberry Pi.
 * Created blog link from the [Repository](https://prana02.github.io/Wireless-Microphone/) that includes all the progress throughtout with some images.
 
 ## Week 5  -  November 27 2017 (Post Strike)
