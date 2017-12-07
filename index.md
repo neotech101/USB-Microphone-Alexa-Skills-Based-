@@ -1,10 +1,11 @@
-## Piyush Rana CENG 317 USB Microphone (Wireless Microphone) Blog.
+## Piyush Rana CENG 317 USB Microphone -- Blog.
 
-## Week 5  -  December 04 2017
+## Week 6  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
+* My professor provided the new circuit diagram for the PCB and a python script that I used to run those sensors.
 * I added python script to detect humidity sensor ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity%20sensor%20detection.jpg?raw=true "Green Light")<br>
 * I am still left to run hardware clock.
-* I researched about it on internet and solutions were like to make some changes in /etc/boot and etc/services files. But it wasn't effective.
+* I researched about it on the internet and solutions were like to make some changes in /etc/boot and etc/services files. But it wasn't effective.
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
 
