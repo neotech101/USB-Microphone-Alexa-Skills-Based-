@@ -43,5 +43,3 @@
 ## Week 0  -  September 05 2017  
 * Hola - welcome to USB Wireless Microphone Repository.
 * In first week, I did a tech quiz and created my [repository](https://github.com/PRana02/Wireless-Microphone).
-
-
