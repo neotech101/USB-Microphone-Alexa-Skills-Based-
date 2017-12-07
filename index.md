@@ -5,10 +5,10 @@
 * My professor provided the new circuit diagram for the PCB and a python script that I used to run those sensors.
 * I added python script to detect humidity sensor ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity.jpg?raw=true "Green Light")<br>
 * I am still left to run hardware clock.
-* I researched about it on the internet and solutions were like to make some changes in /etc/boot and etc/services files. But it wasn't effective.
+* My professor suggested me to take out two of three sensors to detect hardware clock and I saw some changes in the connection on screen afterwards.
+* I researched about it on the internet and solutions were like to making some changes in /etc/boot and etc/services files. But it wasn't effective.
 * I showed all the sensors(Humidity,Temperature and Light) working with LED blinking on PCB board.
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
-
 * Created blog link from the [Repository](https://prana02.github.io/Wireless-Microphone/) that includes all the progress throughtout with some images.
 
 ## Week 5  -  November 27 2017 (Post Strike)
