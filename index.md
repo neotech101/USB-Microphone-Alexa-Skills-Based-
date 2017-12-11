@@ -14,7 +14,6 @@
 * Finally, I can hear responses through the speakers when I ask or say something.
 
 
-
 ## Week 6  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
 * My professor provided the new circuit diagram for the PCB and a python script that I used to run those sensors.
