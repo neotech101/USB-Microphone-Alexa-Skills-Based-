@@ -2,12 +2,14 @@
 
 ## Week 7  -  December 04 2017
 * So far, I have worked on my sensor and created account on amazon developer to use alexa skills for my sensor.
-* I created group placacrd with my team-mates ![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
+* I created group placacrd with my team-mates 
+![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
 
 ## Week 6  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
 * My professor provided the new circuit diagram for the PCB and a python script that I used to run those sensors.
-* I added python script to detect humidity sensor ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity.jpg?raw=true Green Light")<br>
+* I added python script to detect humidity sensor 
+![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/humidity.jpg?raw=true Green Light")<br>
 * I am still left to run hardware clock.
 * My professor suggested me to take out two of three sensors to detect hardware clock and I saw some changes in the connection on screen afterwards.
 * I researched about it on the internet and solutions were like to making some changes in /etc/boot and etc/services files. But it wasn't effective.
