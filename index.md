@@ -4,6 +4,8 @@
 * So far, I have worked on my sensor and created account on amazon developer to use alexa skills for my sensor.
 * I created group placacrd with my team-mates 
 ![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
+** Below is the script of the 30 seconds video:
+
 
 ## Week 6  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
