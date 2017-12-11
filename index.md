@@ -6,7 +6,7 @@
 
 ![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
 
-* Below is the script of the 30 seconds video:
+# Below is the script of the 30 seconds video:
 * For first few seconds, I am showing my name and project name along with the parts arrival.
 * For next few seconds, I am connecting my sensor and Speakers to the Raspberry Pi.
 * Then comes the registration of amazon developer account and the steps followed to install Alexa skills on the Raspberry Pi.
