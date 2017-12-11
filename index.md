@@ -3,8 +3,16 @@
 ## Week 7  -  December 04 2017
 * So far, I have worked on my sensor and created account on amazon developer to use alexa skills for my sensor.
 * I created group placacrd with my team-mates 
+
 ![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
+
 ** Below is the script of the 30 seconds video:
+* <i>For first few seconds, I am showing my name and project name along with the parts arrival.</i>
+* For next few seconds, I am connecting my sensor and Speakers to the Raspberry Pi.
+* Then comes the registration of amazon developer account and the steps followed to install Alexa skills on the Raspberry Pi.
+* Further comes the execution of the scripts (Alexa Skills) on Raspberry Pi and connecting it to my USB microphone.
+* Finally, I can hear responses through the speakers when I ask or say something.
+
 
 
 ## Week 6  -  December 04 2017
