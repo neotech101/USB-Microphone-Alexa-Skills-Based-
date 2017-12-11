@@ -2,7 +2,7 @@
 
 ## Week 7  -  December 04 2017
 * So far, I have worked on my sensor and created account on amazon developer to use alexa skills for my sensor.
-* I created group placacrd with my team-mates 
+* I created group placacrd with my team-mates : Ryan And Patrick
 
 ![Alt text](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Group%20Placard.jpg?raw=true Green Light")<br>
 
