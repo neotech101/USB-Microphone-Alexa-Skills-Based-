@@ -2,7 +2,7 @@
 
 ## Week 8  -  December 18 2017
 * Wait is over, I connected my sensor to the Raspberry Pi and it is working with alexa skills.
-* Here is the link to my [video] (https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Movie.mp4)
+* Here is the link to my [video](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Movie.mp4)
 * My professor helped me with research of my project's reference and provided me some link that helped me in my Project.
 * Due to my travel plans, my due date were early and my Professor helped me to finish my Project Successfully.
 * I also downloaded VNC viewer to connect my Raspberry pi remotely.
