@@ -1,6 +1,12 @@
 ## Piyush Rana CENG 317 USB Microphone -- Blog.
 
-## Week 8  -  December 18 2017
+## Week 11  -  January 15 2017
+* Due to my travel plans, I wasn't able to finish the progress report and presentaion on time.
+* As soon as I got back to Toronto, I finished the required documents and below is the link to that.
+* Link to my [Progress Report](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Project%20Progress%20Report.docx)
+* Link to my [PowerPoint Presentaion](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Movie.mp4)
+
+## Week 9  -  December 18 2017
 * Wait is over, I connected my sensor to the Raspberry Pi and it is working with alexa skills.
 * Here is the link to my [video](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Movie.mp4)
 * My professor helped me with research of my project's reference and provided me some link that helped me in my Project.
@@ -8,7 +14,7 @@
 * I also downloaded VNC viewer to connect my Raspberry pi remotely.
 
 
-## Week 7  -  December 11 2017
+## Week 8  -  December 11 2017
 * So far, I have worked on my sensor and created account on amazon developer to use alexa skills for my sensor.
 * I created group placacrd with my team-mates : Ryan And Patrick
 
@@ -22,7 +28,7 @@
 * Finally, I can hear responses through the speakers when I ask or say something.
 
 
-## Week 6  -  December 04 2017
+## Week 7  -  December 04 2017
 * Due to some circuit problem in my PCB board, I had to change some connections so I took help from our prototype lab.
 * My professor provided the new circuit diagram for the PCB and a python script that I used to run those sensors.
 * I added python script to detect humidity sensor 
@@ -34,7 +40,7 @@
 ![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
 * Created blog link from the [Repository](https://prana02.github.io/Wireless-Microphone/) that includes all the progress throughtout with some images.
 
-## Week 5  -  November 27 2017 (Post Strike)
+## Week 6  -  November 27 2017 (Post Strike)
 * I showed acquisition of my parts and Raspberry Pi working successfully.
 * Due to strike, we didnt have much to submit in the first week. 
 
