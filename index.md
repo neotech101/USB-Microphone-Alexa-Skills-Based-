@@ -4,7 +4,7 @@
 * Due to my travel plans, I wasn't able to finish the progress report and presentaion on time.
 * As soon as I got back to Toronto, I finished the required documents and below is the link to that.
 * Link to my [Progress Report](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Project%20Progress%20Report.docx)
-* Link to my [PowerPoint Presentaion](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Movie.mp4)
+* Link to my [PowerPoint Presentaion](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Final%20Presentation.pptx)
 
 ## Week 9  -  December 18 2017
 * Wait is over, I connected my sensor to the Raspberry Pi and it is working with alexa skills.
