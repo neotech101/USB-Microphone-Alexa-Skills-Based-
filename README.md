@@ -58,62 +58,76 @@ The materials required to build the USB-Microphone are Raspberry Pi 3, SunFounde
 
 ![Connections](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Inkedproject_LI.jpg)
 
-### Soldering
-There was no soldering required with the sunlight sensor. The sunlight sensor is connected by using the Grove Cable to the connector interface on the raspberry pi.
+* As you can see I have connected my RaspberryPi with Powerbank. The USB microphone and speakers are connected to their respective points on the RaspberryPi.
 
 ### Power Up
-Before power up the Raspberry pi, check the micro SD card to see if it has the contents of NOOBS operation system installer which contains Raspbian. If not, you can download, unzip and copy the folder contents of [NOOBS](https://downloads.raspberrypi.org/NOOBS_latest) into the root directory of the micro SD card.
-On the first boot you will be prompted to install the operating system and configure the wifi setting. Once the raspberry pi is done installing the operating system. The first thing is to enable I2C because by default it is not enable. I2C bus allows the devices like the sunlight sensor to be connected and detected on to the Raspberry Pi.
-To enable I2C: from the Start Menu -> Preferences -> Raspberry Pi configuration -> Interface set I2C to Enabled. 
+* Before power up the Raspberry pi, check the micro SD card to see if it has the contents of NOOBS operation system installer which contains Raspbian. If not, you can download, unzip and copy the folder contents of [NOOBS](https://downloads.raspberrypi.org/NOOBS_latest) into the root directory of the micro SD card.
+* On the first boot you will be prompted to install the operating system and configure the wifi setting. Once the raspberry pi is done installing the operating system. 
 
-Next on the terminal type the following command to check that you have i2c-tools utility installed.
+* The USB audio device should be automatically installed. Go in SSH or LXTerminal window and type the following and press Enter
 ```
-sudo apt-get install -y python-smbus
-sudo apt-get install -y i2c-tools
+sudo apt-get install alsa-utils
 ```
+* You may already have this package on your system, but entering this command won't do any harm even if you do. This will install a package of ALSA utilities if you don't already have them (ALSA stands for Advances Linux Sound Architecture). If you want to know more about ALSA then follow the [link](http://www.alsa-project.org/main/index.php/Main_Page).
+
 
 ### Unit Testing
 
-To check if the raspberry pi is detecting the sunlight sensor:
-Open the terminal and type the command 
+* Now, to make sure that the USB audio device is being detected by both the hardware and software. Enter the following command and press enter. 
 ```
-sudo i2cdetect -y 1
-```
-
-If you see this, it means that the raspberry pi is detecting the sunlight sensor and you connected the sensor to the raspberry pi correctly.
-
-![sunlight i2c detect](https://raw.githubusercontent.com/RaphaelNajera/Sunlight_Sensor/master/documentation/Sunlight%20sensor%20i2c%20detect.png)
-
-0x60 is the Sunlight Sensor.
-
-The next step is to install the APscheduler. The Advanced Python Scheduler is a task scheduler that lets you schedule functions to be executed at times of your choosing.
-
-On the terminal type the follow command to install APscheduler.
-```
-Sudo pip install setuptools –upgrade
-Sudo pip install apscheduler
+lsusb
 ```
 
-Next is to install the software and download the code to run the sunlight sensor
-You can download the files required to run the sunlight sensor [here](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2FRaphaelNajera%2FSunlight_Sensor%2Ftree%2Fmaster%2Ffirmware).
+* This will display information regarding attached USB devices. As you can see, the last device listed in the image below is the USB audio device labelled as C-Media Electronics, Inc. Audio Adapter. So far, so good.
 
-Unzip the file and save it on the root directory on your raspberry pi. 
+![USB Microphone detection](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/usb%20microphone%20detection.jpg)
+ 
+* Now follow the steps:
 
-On the terminal type the following command:
+##### Step 1 : Register for an Amazon developer account.
+* Unless you already have one, go ahead and create a free developer account at [developer.amazon.com](https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Fap_login.html&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=mas_dev_portal&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_developer_portal&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&language=en_US&openid.pape.max_auth_age=1)
+
+##### Step 2 : Create a device and security profile.
+* Follow the steps [here](https://github.com/alexa/alexa-avs-sample-app/wiki/Create-Security-Profile) to register your product and create a security profile.
+
+* Make note of the following parameters: ProductID,ClientID and ClientSecret.
+* Allowed Origins: https://localhost:3000
+* Allowed Return URLs: https://localhost:3000/authresponse
+
+##### Step 3 : Clone the sample app
+* Open terminal, and type the following command in particular folder or wherever you like. 
 ```
-cd firmware/Adafruit_Python_PureIO
-sudo python setup.py install
+git clone https://github.com/alexa/alexa-avs-sample-app.git
 ```
 
-To run the code, enter the follow command:
+##### Step 4: Update the install script with your credentials
+* Update the script with the credentials that you got in step 2 - ProductID, ClientID, ClientSecret. Type the following in terminal:
 ```
-cd firmware
-python SunIOT.py
+cd ~/Desktop/alexa-avs-sample-app
+nano automated_install.sh
 ```
-The program will execute.
+* A window will pop with the script like below.
+
+![script](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/script.PNG)
+
+* Paste the values for ProductID, ClientID, and ClientSecret.
+* Type ctrl-X and then Y, and then press Enter to save the changes to the file.
+
+##### Step 5: Run the install script
+* You are now ready to run the install script. This will install all dependencies, including the two wake word engines from Sensory and KITT.AI.
+* Note: The install script will install all project files in the folder that the script is run from.
+* To run the script, open terminal and navigate to the folder where the project was cloned. Then run the following command:
+```
+cd ~/"foldername"/alexa-avs-sample-app
+. automated_install.sh
+```
+* You'll be prompted to answer a few simple questions. These help to ensure that you've completed all necessary prerequisites before continuing. 
+* Once you answer the questions, it will start installation. It will take some time so meanwhile grab a coffee for me.
 
 
-https://www.youtube.com/watch?v=ZI2hxuOw9OU&feature=youtu.be
+
+
+
 
 
 ### Production Testing:
