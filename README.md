@@ -18,8 +18,10 @@
 
 Welcome to the introduction part of my Project i.e. USB-Microphone(Alexa-Skills Based).USB-Microphone is basically a microphone that we plug into the raspberry pi and it is being used for the Voice Recognition. 
 
-The motive of this project is to replicate the skills of Alexa and make a device that reads your audio and give feedback accordingly. I have added speakers to my Project materials as we want the audible and clear feedback. This Project helps you understand the connectivity between various parts of rasperry Pi and USB Microphone 
+The motive of this project is to replicate the skills of Alexa and make a device that reads your audio and give feedback accordingly. I have added speakers to my Project materials as we want the audible and clear feedback. This Project provides step-by-step instructions for setting up AVS on a Raspberry Pi. It also demonstrates how to access and test AVS using Java sample app (running on a Raspberry Pi), a Node.js server, and a third-party wake word engine. You will use the Node.js server to obtain a Login with Amazon (LWA) authorization code by visiting a website using your Raspberry Pi's web browser.
 
+For extra credit, I have posted the link below on how to connect Raspberry PI to LAPTOP using Ethernet cable, eliminating the need for a monitor, keyboard and mouse.
+* [Remote Connection](https://www.youtube.com/watch?v=AJ7skYS5bjI)
 
 #### System Diagram
 
@@ -42,7 +44,8 @@ The materials required to build the USB-Microphone are Raspberry Pi 3, SunFounde
 
 * [The Source](https://www.thesource.ca/en-ca/computers-and-tablets/computer-accessories/computer-speakers/logitech-z130-compact-computer-speakers/p/108008204) CAD $39.99
 
-At the time when I bought the materials, the raspberry pie was $112.99, Sunlight sensor was $36.64 and Connector interface for the raspberry pi was $36.17, plus the shipping $15.41. The total cost for buying the materials was $201.21.
+* Apart from above hardware, a USB Keyboard & Mouse, and an external HDMI Monitor. I also recommend having a USB keyboard and mouse as well as an HDMI monitor handy if you're unable to remote(SSH) into your Pi.
+* When I was planning my budget, the prices of the materials were slightly different from the present. 
 
 ### Time Commitment
 This project can be completed in a couple of days if you followed the mechanical assembly and the diagram. From my experience it took me 1 to 2 weeks to complete the build. I first had to order the materials which will take around a week to arrive. Once you receive the materials, I set up the raspberry pi which took around 3 hours. Connection the parts to the raspberry pi took around 30-60 minutes. And then setting up the code on the raspberry pi and testing the code took around a 1 hour.
