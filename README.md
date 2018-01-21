@@ -48,21 +48,15 @@ The materials required to build the USB-Microphone are Raspberry Pi 3, SunFounde
 * When I was planning my budget, the prices of the materials were slightly different from the present. 
 
 ### Time Commitment
-This project can be completed in a couple of days if you followed the mechanical assembly and the diagram. From my experience it took me 1 to 2 weeks to complete the build. I first had to order the materials which will take around a week to arrive. Once you receive the materials, I set up the raspberry pi which took around 3 hours. Connection the parts to the raspberry pi took around 30-60 minutes. And then setting up the code on the raspberry pi and testing the code took around a 1 hour.
+* Time to complete this project would be around 3 days if you have everything handy with the build instruction. It took me couple of weeks to complete this project.In the first week,I had to research about my project, plan my budget accordingly and wait for the items to be delivered. During that time I learned how to connect my Raspberry Pi remotely and researched about Alexa Skills provided by Amazon.
 
-Overall, I think the needed time to complete this build should be around 3 hours daily for 2-3 days.
+* Well, if you are free for couple of days and want to make something interesting, I would suggest you to try this and let me know if you have any questions. My email address is piyushr97@gmail.com. Feel free to contact me.
 
 ### Mechanical Assembly
 
-1) First, power of the Raspberry Pi
-2) Next, will be connecting the connector interface to the Raspberry pi 3. While holding the connector interface, align the pins on the Raspberry Pi 3 GPIO header and carefully push down the connector interface board on to the Raspberry Pi 3 board.
-3) Then, plug in a Grove Cable that comes with the Grove Sunlight sensor to the sunlight sensor and plug the other end of the cable to any of the I2C plugs on the connector interface. 
-4) Once everything is connected, you can power up the Raspberry Pi. If you see a blue LED on the connector interface it shows that the connector interface is connected.
+* Since this Project requires no more than two components, we just have to connect them to Raspberry Pi. Below is picture of my connection.
 
-
-Below is the outcome after you connect the parts to the raspberry pi.
-
-![Sunlight finish build](https://raw.githubusercontent.com/RaphaelNajera/Sunlight_Sensor/master/documentation/Sunlight%20finish%20build.jpg)
+![Connections](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/Inkedproject_LI.jpg)
 
 ### Soldering
 There was no soldering required with the sunlight sensor. The sunlight sensor is connected by using the Grove Cable to the connector interface on the raspberry pi.
@@ -118,6 +112,8 @@ python SunIOT.py
 ```
 The program will execute.
 
+
+https://www.youtube.com/watch?v=ZI2hxuOw9OU&feature=youtu.be
 
 
 ### Production Testing:
