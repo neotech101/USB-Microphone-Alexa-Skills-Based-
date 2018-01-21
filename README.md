@@ -18,8 +18,9 @@
 
 Welcome to the introduction part of my Project i.e. USB-Microphone(Alexa-Skills Based).USB-Microphone is basically a microphone that we plug into the raspberry pi.
 
-![Image of System Diagram]
-(https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/system%20diagram%20alexa.jpg)
+#### System Diagram
+
+![System Diagram](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/system%20diagram%20alexa.jpg)
 
 
 ### Bill of Materials/Budget
@@ -36,7 +37,7 @@ The materials required to build the USB-Microphone are Raspberry Pi 3, SunFounde
 
 3) Logitech Z130 Compact Computer Speakers:
 
-* [Amazon](https://www.thesource.ca/en-ca/computers-and-tablets/computer-accessories/computer-speakers/logitech-z130-compact-computer-speakers/p/108008204) CAD $39.99
+* [The Source](https://www.thesource.ca/en-ca/computers-and-tablets/computer-accessories/computer-speakers/logitech-z130-compact-computer-speakers/p/108008204) CAD $39.99
 
 At the time when I bought the materials, the raspberry pie was $112.99, Sunlight sensor was $36.64 and Connector interface for the raspberry pi was $36.17, plus the shipping $15.41. The total cost for buying the materials was $201.21.
 
