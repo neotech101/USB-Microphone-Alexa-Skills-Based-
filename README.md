@@ -124,21 +124,77 @@ cd ~/"foldername"/alexa-avs-sample-app
 * You'll be prompted to answer a few simple questions. These help to ensure that you've completed all necessary prerequisites before continuing. 
 * Once you answer the questions, it will start installation. It will take some time so meanwhile grab a coffee for me.
 
+##### Step 6: Run your web service, sample app and wake word engine
+* Now that installation is complete, you'll need to run three commands in 3 separate terminal windows:
+
+* Terminal Window 1: to run the web service for authorization
+* Terminal Window 2: to run the sample app to communicate with AVS
+* Terminal Window 3: to run the wake word engine which allows you to start an interaction using the phrase "Alexa".(optional)
+Note: These commands must be run in order.
+
+* Terminal Window 1
+Open a new terminal window and type the following commands to bring up the web service which is used to authorize your sample app with AVS:
+```
+cd ~/"foldername"/alexa-avs-sample-app/samples
+cd companionService && npm start
+```
+Once you have run the above command : The server starts running on port 3000 and you are ready to start the client.
+
+* Terminal Window 2
+Open a new terminal window and type the following commands to run the sample app, which communicates with AVS:
+```
+cd ~/"foldername"/alexa-avs-sample-app/samples
+cd javaclient && mvn exec:exec
+```
+When you run the client, a window should pop up with a message.
+
+![client](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/client.PNG)
+
+Click on "Yes" to open the URL in your default browser.
+
+If you're running Raspbian with Pixel desktop (and with Chromium browser), you may get a warning from the browser. You can get around it by clicking on Advanced -> Proceed to localhost(unsafe)
+
+You'll be taken to a Login with Amazon web page. Enter your Amazon credentials there.
+You'll be taken to a Dev Authorization page, confirming that you’d like your device to access the Security Profile created earlier.
+Click Okay.
+
+You will now be redirected to a URL beginning with https://localhost:3000/authresponse followed by a query string. The body of the web page will say device tokens ready.
+
+Return to the Java application and click the OK button. The client is now ready to accept Alexa requests. 
+
+![confirm](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-/blob/master/connfirm.PNG)
 
 
+* Terminal Window 3
+Note: Skip this step to run the same app without a wake word engine.
 
+This project supports two third-party wake word engines: Sensory's TrulyHandsFree and KITT.AI's Snowboy.
+Open a new terminal window and use the following commands to bring up a wake word engine from Sensory or KITT.AI. The wake word engine will allow you to initiate interactions using the phrase "Alexa".
 
+To use the Sensory wake word engine, type -
+```
+cd ~/Desktop/alexa-avs-sample-app/samples
+cd wakeWordAgent/src && ./wakeWordAgent -e sensory
+```
+or, type this to use KITT.AI's wake word engine -
+```
+cd ~/Desktop/alexa-avs-sample-app/samples
+cd wakeWordAgent/src && ./wakeWordAgent -e kitt_ai
+```
 
+* The wait is over. After all the work and effort, you have successfully replicate the project. Now enjoy.
+
+##### Step 7: Talk to Alexa
+You can now talk to Alexa by simply using the wake word "Alexa". Try the following -
+
+* Say "Alexa", then wait for the beep. Now say "what's the time?"
+
+* Say "Alexa", then wait for the beep. Now say "what's the weather in Seattle?"
 
 ### Production Testing:
-Once the program successfully executes the output will display the Vis (visible light), IR (infrared light) and UV Index (UV-Light) from the sunlight sensor. 
-
-Pictures of the sunlight sensor project and the code running:
-
-![sunlight powering up](https://raw.githubusercontent.com/RaphaelNajera/Sunlight_Sensor/master/documentation/sunlight%20sensor%20powered%20up.jpg)
-
-
-![sunlight sensor output](https://raw.githubusercontent.com/RaphaelNajera/Sunlight_Sensor/master/documentation/Sunlight%20sensor%20output.png)
+If we want to produce the project on large scale, we can do it in different ways.
+* By creating single account for multiple users. OR
+* By creating individual account for each user.
 
 ### Reproducible?
-By following this build instruction, I believe you will be able to reproduce the sunlight sensor project. I have provided in my GitHub, budget, instruction on how to build and setup the code.
+* By following this build instruction, I believe you will be able to reproduce the Alexa skills USB microphone.I have provided budget,schedule and other required details on my [GitHub](https://github.com/PRana02/USB-Microphone-Alexa-Skills-Based-) regarding this project.
